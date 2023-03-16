@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232020"
+    android:backgroundTint="#403A3A"
+    tools:context=".updatenote">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="389dp"
+        android:layout_height="46dp"
+        android:layout_x="12dp"
+        android:layout_y="21dp"
+        android:background="#E8E3E3"
+        android:backgroundTint="#E8E3E3"
+        android:text="UPDATE YOUR NOTE HERE..!!"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtEdit"
+        android:layout_width="341dp"
+        android:layout_height="402dp"
+        android:layout_x="35dp"
+        android:layout_y="158dp"
+        android:background="#FAF8F8"
+        android:backgroundTint="#F6F3F3"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_x="90dp"
+        android:layout_y="582dp"
+        android:backgroundTint="#69989E"
+        android:text="Update"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtTit"
+        android:layout_width="336dp"
+        android:layout_height="44dp"
+        android:layout_x="37dp"
+        android:layout_y="104dp"
+        android:background="#E8A645"
+        android:backgroundTint="#F6AC3E"
+        android:textAlignment="center"
+        android:textSize="26sp" />
+</AbsoluteLayout>

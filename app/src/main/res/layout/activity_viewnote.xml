@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F8989"
+    android:backgroundTint="#514E4E"
+    tools:context=".viewnote">
+
+    <EditText
+        android:id="@+id/txtRequest"
+        android:layout_width="235dp"
+        android:layout_height="49dp"
+        android:layout_x="121dp"
+        android:layout_y="53dp"
+        android:background="#F39F24"
+        android:backgroundTint="#F6A52C"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtAnswer"
+        android:layout_width="360dp"
+        android:layout_height="384dp"
+        android:layout_x="24dp"
+        android:layout_y="197dp"
+        android:background="#FAF6F6"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnSea"
+        android:layout_width="232dp"
+        android:layout_height="wrap_content"
+        android:layout_x="85dp"
+        android:layout_y="127dp"
+        android:backgroundTint="#4D949E"
+        android:text="search" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="162dp"
+        android:layout_height="60dp"
+        android:layout_x="33dp"
+        android:layout_y="614dp"
+        android:backgroundTint="#4D949E"
+        android:text="Edit" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="157dp"
+        android:layout_height="59dp"
+        android:layout_x="214dp"
+        android:layout_y="613dp"
+        android:backgroundTint="#4D949E"
+        android:text="Delete" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="81dp"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="53dp"
+        android:background="#514E4E"
+        android:backgroundTint="#514E4E"
+        android:text="Title"
+        android:textColor="#F8F0F0"
+        android:textSize="34sp" />
+
+</AbsoluteLayout>

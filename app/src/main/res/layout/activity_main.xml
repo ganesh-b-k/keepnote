@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFCD95"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="331dp"
+        android:layout_height="69dp"
+        android:layout_x="42dp"
+        android:layout_y="31dp"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:text="         My Notes"
+        android:textAlignment="textStart"
+        android:textColor="#E64E4947"
+        android:textColorHint="#E8E3E3"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="225dp"
+        android:layout_height="61dp"
+        android:layout_x="39dp"
+        android:layout_y="152dp"
+        android:backgroundTint="#ACD5DA"
+        android:shadowRadius="10"
+        android:text="New Note"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"
+        app:strokeColor="#2B2424" />
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="223dp"
+        android:layout_height="62dp"
+        android:layout_x="41dp"
+        android:layout_y="228dp"
+        android:backgroundTint="#ACD5DA"
+        android:text=" search note"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/btnDeleteAll"
+        android:layout_width="227dp"
+        android:layout_height="63dp"
+        android:layout_x="41dp"
+        android:layout_y="309dp"
+        android:backgroundTint="#ACD5DA"
+        android:text="delete all"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/btnQuote"
+        android:layout_width="221dp"
+        android:layout_height="60dp"
+        android:layout_x="43dp"
+        android:layout_y="390dp"
+        android:backgroundTint="#ACD5DA"
+        android:text="view a quote"
+        android:textSize="20sp"
+        app:cornerRadius="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="66dp"
+        android:layout_y="32dp"
+        android:src="@drawable/keepicon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="147dp"
+        android:src="@drawable/plus" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="285dp"
+        android:layout_y="229dp"
+        android:src="@drawable/view" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_x="286dp"
+        android:layout_y="310dp"
+        android:src="@drawable/delete" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="69dp"
+        android:layout_height="63dp"
+        android:layout_x="282dp"
+        android:layout_y="391dp"
+        android:src="@drawable/quote" />
+
+</AbsoluteLayout>
