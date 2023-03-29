@@ -1,8 +1,11 @@
 # keepnote
 A simple app for maintaining notes.
 ![noteph1](https://user-images.githubusercontent.com/121806143/228441153-e59b8455-1997-4d63-a2a6-604379688598.png)
+Home page of our app.
 ![noteph2](https://user-images.githubusercontent.com/121806143/228441430-d90c3bed-1482-4aaa-b1ac-afd4b0659582.png)
+After clicking new note.Add a note with appropriate title.
 ![noteph3](https://user-images.githubusercontent.com/121806143/228441443-386e022b-f32b-4af2-83ab-bc4271e6db60.png)
+After adding note,a popup message saying "Success note added".An error message will be displayed if any of the two fields are not specified properly.
 ![noteph4](https://user-images.githubusercontent.com/121806143/228441457-07506fb6-5bcc-42d3-81fc-9d3c814e4b15.png)
 ![noteph5](https://user-images.githubusercontent.com/121806143/228441462-e301be9c-e4ed-4125-8fec-89a7b8289e1c.png)
 ![noteph6](https://user-images.githubusercontent.com/121806143/228441470-ec4f38ba-718f-4002-8f8c-baf5a300f7d5.png)
