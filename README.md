@@ -1,5 +1,6 @@
 # keepnote
 A simple app for maintaining notes.
+
 Scroll to view different operations that can be performed.
 ![noteph1](https://user-images.githubusercontent.com/121806143/228441153-e59b8455-1997-4d63-a2a6-604379688598.png)
 Home page of our app.
